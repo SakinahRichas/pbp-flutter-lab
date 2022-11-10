@@ -115,15 +115,11 @@ class _MyHomePageState extends State<MyHomePage> {
             _counter % 2 == 0 ?
               const Text(
                 "GENAP",
-                style: TextStyle(
-                  color: Colors.red,
-                ),
+                style: TextStyle(color: Colors.red,),
               ):
               const Text(
                 "GANJIL",
-                style: TextStyle(
-                  color: Colors.blue,
-                ),
+                style: TextStyle(color: Colors.blue,),
               ),
             Text(
               '$_counter',
@@ -142,27 +138,25 @@ class _MyHomePageState extends State<MyHomePage> {
 
       floatingActionButton: Container(
         
-        margin: const EdgeInsets.only(left:35, bottom:5),
+        margin: const EdgeInsets.only(left:25, bottom:5),
 
         child: Row(
-          crossAxisAlignment: CrossAxisAlignment.end,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           
           children:[
-            Visibility(
-              visible: true,
-              child: FloatingActionButton(
-                onPressed: _decrementCounter,
-                tooltip: 'decrement',
-                child: const Icon(Icons.remove),
-              ),
-            ),
-            Expanded(child: Container()),
-
+            _counter > 0 ?
+            FloatingActionButton(
+              onPressed: _decrementCounter,
+              tooltip: 'decrement',
+              child: const Icon(Icons.remove),
+            )
+            : const SizedBox(),
             FloatingActionButton(
               onPressed: _incrementCounter,
               tooltip: 'increment',
               child: const Icon(Icons.add),
-            ),
+            )
+            
           ],
         ),
       )
