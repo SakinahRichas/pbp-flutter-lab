@@ -139,51 +139,32 @@ class _MyHomePageState extends State<MyHomePage> {
       //   child: const Icon(Icons.add),
       // ), // This trailing comma makes auto-formatting nicer for build methods.
 
-      // floatingActionButton: Container(
-      //   width: double.infinity,
-      //   margin: const EdgeInsets.only(left:35, bottom:5),
+      floatingActionButton: Container(
+        width: double.infinity,
+        margin: const EdgeInsets.only(left:35, bottom:5),
 
-      //   child: Row(
-      //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      //     children: [
-      //       _counter > 0 ?
-      //         FloatingActionButton(
-      //           onPressed: _decrementCounter,
-      //           tooltip: 'decrement',
-      //           child: const Icon(Icons.remove),
-      //         ):
-      //         const SizedBox(),
-      //       FloatingActionButton(
-      //         onPressed: _incrementCounter,
-      //         tooltip: 'increment',
-      //         child: const Icon(Icons.add),
-      //       ),
-
-      //     ],
-      //   ),
-      // )
-      floatingActionButton: Padding(padding: const EdgeInsets.only(left: 30),
         child: Row(
-          crossAxisAlignment: CrossAxisAlignment.end,
-          children:[
-            Visibility(
-              visible: _counter > 0 ? true:false,
-              child: FloatingActionButton(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            _counter > 0 ?
+              FloatingActionButton(
                 onPressed: _decrementCounter,
                 tooltip: 'decrement',
                 child: const Icon(Icons.remove),
-              ),
-            ),
-
-            Expanded(child: Container()),
+              ):
+              const SizedBox(),
             FloatingActionButton(
               onPressed: _incrementCounter,
               tooltip: 'increment',
               child: const Icon(Icons.add),
             ),
+
           ],
         ),
       )
+
+
+      
 
     );
   }
