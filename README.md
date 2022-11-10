@@ -32,11 +32,11 @@ sedangkan final variabel nya tidak harus memiliki nilai secara langsung / eskpli
 
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
-1. Buat aplikasi counter_7 dengan command flutter create counter_7
-2. Menambahkan fungsi _decrementCounter() dengan kondisi if (_counter > 0), agar saat sama dengan 0, tidak terjadi decrement nantinya
-3. Membuat const text "GENAP" bewarna merah jika _counter % 2 = 0 dan text "GANJIL" berwarna biru jika tidak memenuhi kondisi tadi.
-4. Untuk FloatingActionButton, buat container, atur margin, lalu buat row 
-5. lalu atur tombol untuk atribut onPressed mengarah ke _decrementCounter jika _counter >0
-6. dan kondisi else, tidak muncil tombol decrement, muncul tampilan widget kosong SizedBox() agar menghilangkan tombol decrement jika counter <= 0
-7. Lalu, atur juga untuk FloatingActionButton yang increment, dengan onPressed ke fungsi _incrementCounter().
+    1. Buat aplikasi counter_7 dengan command flutter create counter_7
+    2. Menambahkan fungsi _decrementCounter() dengan kondisi if (_counter > 0), agar saat sama dengan 0, tidak terjadi decrement nantinya
+    3. Membuat const text "GENAP" bewarna merah jika _counter % 2 = 0 dan text "GANJIL" berwarna biru jika tidak memenuhi kondisi tadi.
+    4. Untuk FloatingActionButton, buat container, atur margin, lalu buat row 
+    5. lalu atur tombol untuk atribut onPressed mengarah ke _decrementCounter jika _counter >0
+    6. dan kondisi else, tidak muncil tombol decrement, muncul tampilan widget kosong SizedBox() agar menghilangkan tombol decrement jika counter <= 0
+    7. Lalu, atur juga untuk FloatingActionButton yang increment, dengan onPressed ke fungsi _incrementCounter().
 
