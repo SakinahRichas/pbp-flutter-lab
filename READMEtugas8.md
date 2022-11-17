@@ -34,9 +34,9 @@ Karena Navigator menggunakan prinsip stack, sehingga halaman yg ditampilkan adal
 
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
-1. Buat drawer menu untuk tiap halaman
-2. Membuat file budget yang berisi class Budget dan list untuk menyimpan objek yang diinput
-3. Membuat halaman form agar bisa menginput budget baru
-4. Membuat halaman data budget untuk menampilkan budget yang sudah ditambahkan user.
-5. Buat bonus, tambah tombol pilih tanggal dan menambah objek tanggal pada budget.
-6. buat file drawer untuk class Drawernya lalu ditambahkan ke masing2 halaman.
+    1. Buat drawer menu untuk tiap halaman
+    2. Membuat file budget yang berisi class Budget dan list untuk menyimpan objek yang diinput
+    3. Membuat halaman form agar bisa menginput budget baru
+    4. Membuat halaman data budget untuk menampilkan budget yang sudah ditambahkan user.
+    5. Buat bonus, tambah tombol pilih tanggal dan menambah objek tanggal pada budget.
+    6. buat file drawer untuk class Drawernya lalu ditambahkan ke masing2 halaman.
