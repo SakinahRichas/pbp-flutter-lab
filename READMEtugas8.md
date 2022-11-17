@@ -20,11 +20,11 @@ Navigator.pushReplacement mengganti top of stack dengan page yang baru dan mengh
 
 3. Sebutkan jenis-jenis event yang ada pada Flutter 
 
-    onPressed : event terjadi saat tombol ditekan
-    onSaved: event terjadi saat input di onSaved
-    onChanged: event terjadi saat terjadi perubahan pada value
-    onLongPress: event terjasi saat tombol ditekan lama
-    onHover: event terjadi saat pointer masuk atau keluar area respon FloatingActionButton
+    1. onPressed : event terjadi saat tombol ditekan
+    2. onSaved: event terjadi saat input di onSaved
+    3. onChanged: event terjadi saat terjadi perubahan pada value
+    4. onLongPress: event terjasi saat tombol ditekan lama
+    5. onHover: event terjadi saat pointer masuk atau keluar area respon FloatingActionButton
 
 4. Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
 
