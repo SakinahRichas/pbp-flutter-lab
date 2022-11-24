@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:counter_7/main.dart';
-import 'package:counter_7/databudget.dart';
-import 'package:counter_7/form.dart';
-
+import 'package:counter_7/page/databudget.dart';
+import 'package:counter_7/page/form.dart';
+import 'package:counter_7/page/mywatchlist.dart';
 
 
 class Drawernya extends StatelessWidget{
@@ -42,6 +42,17 @@ class Drawernya extends StatelessWidget{
                       );
                     },
                   ),
+                  ListTile(
+                    title: const Text('My Watch List'),
+                    onTap: () {
+                      Navigator.pushReplacement(
+                        context, 
+                        MaterialPageRoute(builder: (context) => const MyWatchListPage())
+                      );
+                    },
+                  ),
+
+
                 ],
               ),
             
